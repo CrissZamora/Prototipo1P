@@ -123,7 +123,8 @@ public class PROVEEDORES extends javax.swing.JFrame {
     }//GEN-LAST:event_guardarActionPerformed
 
     private void regresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regresarActionPerformed
-        // TODO add your handling code here:
+            MENU ventana = new MENU();
+            ventana.setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_regresarActionPerformed
 
     /**

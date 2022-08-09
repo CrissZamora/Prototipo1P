@@ -218,8 +218,8 @@ public class PEDIDOS extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField7ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-          MENU_VER ventana = new MENU_VER();
-            ventana.setVisible(true);         // TODO add your handling code here:
+            MENU ventana = new MENU();
+            ventana.setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
