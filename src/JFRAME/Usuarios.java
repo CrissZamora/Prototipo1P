@@ -21,7 +21,7 @@ public class Usuarios {
     try {
 
         Connection cn = db.conectar();
-        PreparedStatement pst = cn.prepareStatement("SELECT usuario, contraseña FROM admin");
+        PreparedStatement pst = cn.prepareStatement("SELECT nombre, contraseña FROM usuario");
         ResultSet rs = pst.executeQuery();
 
         if (rs.next()) {
